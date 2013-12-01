@@ -1,6 +1,6 @@
 #IMPORTS
 
-import pygame, sys, func
+import pygame, sys, functions
 from pygame.locals import * 
 from func import *
 #sys.path.append('/d/Projekt/python/First_grafc')
