@@ -1,6 +1,5 @@
 
 
-
 def update_prick_position(new_direction, position, DISPLAY_SEGMENT):
     if new_direction == 'right':
         position[0] +=  1
