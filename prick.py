@@ -40,6 +40,8 @@ direction = 'non'
 prick_img = img_right
 prick_pos = [1,1]
 			
+			
+
 # main game loop
 while True: # the main game loop
  
@@ -71,7 +73,6 @@ while True: # the main game loop
     DISPLAY.fill(BLUE)
     DISPLAY.blit(textSurfaceObj, textRectObj)
     DISPLAY.blit(prick_img, (prick_dis_pos(prick_pos[0],DISPLAY_SEGMENT_SIZE),prick_dis_pos(prick_pos[1],DISPLAY_SEGMENT_SIZE)))
-    
-    pygame.display.update() 
+	pygame.display.update() 
     FPSCLOCK.tick(FPS)
 
